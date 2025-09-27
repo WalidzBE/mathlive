@@ -8,9 +8,9 @@
     "url": "https://paypal.me/arnogourdol"
   },
   "private": true,
-  "files": [
-    "dist/**/*"
-  ],
+  "publishConfig": {
+    "directory": "dist"
+  },
   "types": "./types/mathlive.d.ts",
   "module": "./mathlive.min.mjs",
   "main": "./mathlive.min.js",
